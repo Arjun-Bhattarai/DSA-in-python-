@@ -1,0 +1,15 @@
+#"counting total number"
+count=0
+n=int(input("enter number to reverse"))
+num=n
+while num > 0:
+    digit=num%10
+    count+=1
+    num=num//10
+print(count)
+
+#"or "
+import math as m 
+number=int(m.log10(n))#"suppose number is 12345 the i divide by log10 the result will be 5360.745792 then add 1 it wil be 6360.745792 make it int and print first number that will be the length"
+print (number+1)
+#"time complexity is O (log base 10 (N))"
