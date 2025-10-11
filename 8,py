@@ -1,0 +1,22 @@
+count=0
+n=int(input("enter number to check for palindrome"))
+num=n
+while num > 0:
+    digit=num%10
+    (0*10)+digit
+    num=num//10
+if num==n:
+    print("palindrome")
+else:
+    print("not palindrome")   
+
+    # "OR we can convert number to string and then reverse the string "
+
+    num = int(input("Enter a number: "))
+num_str = str(num)         
+reversed_str = num_str[::-1] 
+
+if num_str == reversed_str:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
